@@ -1,17 +1,17 @@
 import 'dart:io';
 
 void main() {
-  print('=== Simple Calculator ===\n');
+  print('Simple Calculator\n');
   
   while (true) {
     stdout.write('Enter the 1st number: ');
-    double num1 = double.parse(stdin.readLineSync()!);
+    double num1=double.parse(stdin.readLineSync()!);
     
     stdout.write('Enter the 2nd number: ');
-    double num2 = double.parse(stdin.readLineSync()!);
+    double num2=double.parse(stdin.readLineSync()!);
     
     stdout.write('Choose an operation (+, -, *, /): ');
-    String operation = stdin.readLineSync()!;
+    String operation=stdin.readLineSync()!;
     
     //calculation
     double result;
